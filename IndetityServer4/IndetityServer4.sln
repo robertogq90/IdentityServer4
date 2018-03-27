@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{63565BB2-DBE9-41CB-AAF4-F87D1CC251EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{95800199-0AA4-4F3F-AC89-2B2FB988B683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{A826F4BD-45AD-4864-B2D7-4D68EBF93447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63565BB2-DBE9-41CB-AAF4-F87D1CC251EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63565BB2-DBE9-41CB-AAF4-F87D1CC251EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63565BB2-DBE9-41CB-AAF4-F87D1CC251EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63565BB2-DBE9-41CB-AAF4-F87D1CC251EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95800199-0AA4-4F3F-AC89-2B2FB988B683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95800199-0AA4-4F3F-AC89-2B2FB988B683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95800199-0AA4-4F3F-AC89-2B2FB988B683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95800199-0AA4-4F3F-AC89-2B2FB988B683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A826F4BD-45AD-4864-B2D7-4D68EBF93447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A826F4BD-45AD-4864-B2D7-4D68EBF93447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A826F4BD-45AD-4864-B2D7-4D68EBF93447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A826F4BD-45AD-4864-B2D7-4D68EBF93447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0802A808-0EE8-4A2B-9DBD-79EE49900D77}
+	EndGlobalSection
+EndGlobal
